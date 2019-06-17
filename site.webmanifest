@@ -1,6 +1,6 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "SW",
+  "name": "Single Window",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
