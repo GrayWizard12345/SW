@@ -264,3 +264,44 @@ textarea {
   }
 }
 
+/*Dropdown on hoover*/
+.dropdown:hover{
+  background-color: aliceblue;
+}
+.dropdown-menu{
+  background-color: #e3f2fd;
+  border-top: 0;
+}
+
+.bg-navbar {
+  background-color: #e3f2fd;
+}
+
+#loading {
+  -webkit-animation: rotation 2s linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+.content{
+  display: none;
+}
+
+.preload{
+  margin: 0 -50% 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
