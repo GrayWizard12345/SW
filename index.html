@@ -32,31 +32,33 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div class="preload">
 
-    <img src="img/loading.png" id="loading">
+  <div class="preload" id="loading"></div>
 
-  </div>
-
-  <div class="content">
+  <!-- CONTENT START -->
+  <div class="main-content" id="content">
 
     <!--  Navigation Bar-->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-navbar container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="50" height="50" alt="">
-      </a>
+    <nav class="navbar-default navbar-expand-lg navbar-light shadow sticky-top container-fluid">
+      <div class="navbrandUniter navbar-margin m-0">
+        <a class="navbar-brand m-0 p-0" href="#" style="vertical-align: center">
+          <img src="img/logo.png" width="40" height="40" alt="ЕДИНОЕ ОКНО РЕСПУБЛИКИ УЗБЕКИСТАН">
+        </a>
+        <p class="navbar-brand-text mt-2">
+          ЕДИНОЕ ОКНО РЕСПУБЛИКИ УЗБЕКИСТАН
+        </p>
+      </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="navbar-nav mr-auto">
+        <div class="navbar-nav row m-0">
 
               <div class="nav-item dropdown col-sm">
-                <a class="nav-link dropdown-toggle" href="#" id="aboutSystem" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About Single Window
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="aboutSystem" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  О Едином Окне
                 </a>
                 <div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
@@ -66,8 +68,20 @@
                 </div>
               </div>
               <div class="nav-item dropdown col-sm">
-                <a class="nav-link dropdown-toggle" href="#" id="ReferenceInformation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Reference Information
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="ReferenceInformation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Справочники и
+                  <br>Реестры Документов
+                </a>
+                <div class="dropdown-menu w-auto" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <div class="nav-item dropdown col-sm">
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="UsefulInformation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Полезная Информация
                 </a>
                 <div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
@@ -77,8 +91,8 @@
                 </div>
               </div>
               <div class="nav-item dropdown col-sm">
-                <a class="nav-link dropdown-toggle" href="#" id="UsefulInformation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Useful Information
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="Anouncements" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Объявления
                 </a>
                 <div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
@@ -87,30 +101,119 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </div>
-              <div class="nav-item dropdown col-sm">
-                <a class="nav-link dropdown-toggle" href="#" id="Anouncements" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Anouncements
-                </a>
-                <div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </div>
-            </div>
-            <form class="form-inline my-2 my-lg-0 col-sm-3" >
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
         </div>
-
+        <div class="navbar-nav ml-auto">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark btn-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
       </div>
     </nav>
 
+    <div class="body">
+      <div class="container-fluid h-100 d-flex flex-column">
+        <div class="row h-100">
+          <div class="col-md-6">
+            <div class="border-2 my-3 left">
+              <div class="b-group e1">
+                <button type="button" class="btn nohover btn-circle btn-xl btn-light">
+                  <img src="img/shapes/e-licenses.svg" alt="">
+                </button>
+                <button type="button" class="btn btn-extensive"><strong>Электронные лицензии, разрешительные документы</strong></button>
+                <div class="overlay"></div>
+              </div>
+              <br>
 
+              <div class="b-group e2">
+                <button type="button" class="btn nohover btn-circle btn-xl btn-light">
+                  <img src="img/shapes/customs_decisions.svg" alt="">
+                </button>
+                <button type="button" class="btn btn-extensive"><strong>Электронные лицензии, разрешительные документы</strong></button>
+                <div class="overlay"></div>
+              </div>
+              <br>
+
+              <div class="b-group e3">
+                <button type="button" class="btn nohover btn-circle btn-xl btn-light">
+                  <img src="img/shapes/e-customs.svg" alt="">
+                </button>
+                <button type="button" class="btn btn-extensive"><strong>Электронные лицензии, разрешительные документы</strong></button>
+                <div class="overlay"></div>
+              </div>
+              <br>
+
+              <div class="b-group e4">
+                <button type="button" class="btn nohover btn-circle btn-xl btn-light">
+                  <img src="img/shapes/customs_decisions.svg" alt="">
+                </button>
+                <button type="button" class="btn btn-extensive"><strong>Электронные лицензии, разрешительные документы</strong></button>
+                <div class="overlay"></div>
+              </div>
+              <br>
+
+              <div class="b-group e5">
+                <button type="button" class="btn nohover btn-circle btn-xl btn-light">
+                  <img src="img/shapes/ITMS.svg " alt="">
+                </button>
+                <button type="button" class="btn btn-extensive"><strong>Электронные лицензии, разрешительные документы</strong></button>
+                <div class="overlay"></div>
+              </div>
+
+            <!--End of left class div-->
+            </div>
+
+          <!--End of left column-->
+          </div>
+
+
+          <div class="col-md-6">
+            <div class="border-2 my-3 right">
+              <h2 class="page-title_1" style="position: relative;left: 26%;">Введение в "Единое Окно"</h2>
+              <div class="text-panel">
+                Единое Окно – это система One-Stop Service (получение услуг в одном месте), в которой участник ВЭД может получить обобщенное представление различных требований по импорту.
+              </div>
+            </div>
+          </div>
+
+
+        <!-- End of row -->
+        </div>
+      </div>
+
+      <div class="container-fluid border-2 slider">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://dummyimage.com/200x100/000/fff.png" alt="Los Angeles" style="position: relative;left: 50%">
+            </div>
+            <div class="carousel-item">
+              <img src="https://dummyimage.com/200x100/000/fff.png" alt="Chicago" style="position: relative;left: 50%">
+            </div>
+            <div class="carousel-item">
+              <img src="https://dummyimage.com/200x100/000/fff.png" alt="New York" style="position: relative;left: 50%">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- End of body -->
+    </div>
+<!-- END OF CONTENT -->
   </div>
+
 
 
 
