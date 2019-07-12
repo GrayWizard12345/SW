@@ -266,11 +266,10 @@ textarea {
 /* MY CHANGES*/
 body{
   background-color: skyblue;
-  background-image: url("../img/finalVers.png");
+  background-image: url("../img/uzb2v5-map_v1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: aqua;
   /*height: 100%;*/
 }
 
@@ -281,18 +280,11 @@ body{
   flex-direction: row;
   background-color: #248a24;
   border-color: #E7E7E7;
-  position: relative;
 }
 
-.navbrandUniter{
-  display: flex;
-  width: max-content;
-  overflow-wrap: break-word;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex: auto;
+.navbar-text{
+  font-size: 14px;
+  font-family: Arial;
 }
 
 /* Link */
@@ -333,7 +325,6 @@ body{
   border-bottom-color: #555;
 }
 .navbar-default .navbar-nav > .dropdown{
-  max-width: 30%;
   color: white;
   background-color: rgba(255,255,255,0.9);
   margin: 2px;
@@ -347,20 +338,21 @@ body{
 .navbar-default .collapse{
   padding: 4px;
   background-color: #248a24;
-
 }
 .navbar-default .navbar-nav > .dropdown > .nav-link{
   color: black;
   display: inline-block;
   align-content: center;
-  height: 60px;
+  align-items: center;
+  text-align: center;
+  /*height: 60px;*/
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
 }
 
 .navbar-default .navbar-nav > .dropdown > .dropdown-menu{
-  width: inherit;
+  width: 100%;
   background-color: rgba(255,255,255,1);
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -372,24 +364,15 @@ body{
   .navbar-margin{
     margin: auto;
   }
+  .navbar-default {
+    display: block;
+  }
 }
 .navbar-toggler{
-  display: inline-block;
   float:right;
   margin-left: auto;
-}
-.navbar-brand-text{
-  /*position: absolute;*/
-  /*top: 5px;*/
-  /*left: 72px;*/
-  /*margin-right: 5px;*/
-  width: 100px;
-  display: inline-block;
-  font-size: 12px;
-  font-family: Arial, serif;
-  color: white;
-  overflow-wrap: break-word;
-
+  margin-top: 4px;
+  margin-right: 4px;
 }
 
 #content {
@@ -453,7 +436,7 @@ body{
   background-position-y: center;
   height: 450px;
   margin-bottom: 0;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.0);
   padding: 4px;
   border-radius: 5px;
 }
@@ -466,7 +449,7 @@ body{
   height: 450px;
   background-position-y: center;
   margin-bottom: 0;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.0);
   padding: 4px;
   border-radius: 5px;
 
